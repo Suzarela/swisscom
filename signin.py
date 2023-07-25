@@ -103,6 +103,7 @@ def show():
 def user_enter(event):
     if usernameEntry.get() == 'Username':
         usernameEntry.delete(0, END)
+        
 
 def password_enter(event):
     if passwordEntry.get() == 'Password':
